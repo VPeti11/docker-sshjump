@@ -4,7 +4,7 @@ Docker container that can jump ssh
 # How to run
 
 ### Clone the repo
-git clone https://gitub.com/vpeti11/docker-sshjump.giz
+git clone https://gitub.com/vpeti11/docker-sshjump.git
 
 ### Add your ssh private key
 Use file id_rsa in the same folder as the Dockerfile
