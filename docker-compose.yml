@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  alpine-ssh:
+    build: .
+    container_name: alpine-ssh
+    ports:
+      - "5774:22"
+    restart: unless-stopped
